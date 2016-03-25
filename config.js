@@ -15,3 +15,6 @@ exports.sinaBlog = {
 };
 
 exports.port = 3000;
+
+// 30 分钟执行一次
+exports.autoUpdateCron = '* */30 * * * *';

@@ -2,7 +2,7 @@
 
 var mysql  = require('mysql');
 
-exports = mysql.createConnection({
+exports.db = mysql.createConnection({
   host: 'localhost',
   port: '3306',
   database: 'sina_blog',

@@ -13,3 +13,5 @@ exports.db = mysql.createConnection({
 exports.sinaBlog = {
   url: 'http://blog.sina.com.cn/u/1776757314'
 };
+
+exports.port = 3000;
